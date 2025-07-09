@@ -2,6 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import 'dotenv/config'
 import ConnectDB from './config/moogodb.js'
+import connectCloudnary from './config/cloudnary.js'
 
 
 
@@ -9,6 +10,7 @@ import ConnectDB from './config/moogodb.js'
 const app = express()
 const port = process.env.PORT || 4000
 ConnectDB()
+connectCloudnary()
 
 // middlewares
 app.use(express.json())
