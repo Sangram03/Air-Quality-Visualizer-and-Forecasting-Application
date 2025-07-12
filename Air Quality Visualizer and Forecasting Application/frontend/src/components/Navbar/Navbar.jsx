@@ -2,10 +2,21 @@ import React from 'react'
 
 const Navbar = () => {
   return (
+   <div>
+
+    <a href="">Home</a>
+    <a href="">About</a>
+    <a href="">Service</a>
+    <a href="">Contact Us</a>
+
     <div>
-        <h2>MySelf Sangram</h2>
+    
+      
     </div>
+   </div>
   )
 }
+
+
 
 export default Navbar
