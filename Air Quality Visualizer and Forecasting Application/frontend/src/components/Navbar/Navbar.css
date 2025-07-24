@@ -12,7 +12,7 @@ nav{
       color: white;
       border-radius: 21px;
       border: 2px solid rgb(245 74 0);
-      margin: 12px 25px;
+      margin: 5px 25px;
       box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
@@ -55,4 +55,8 @@ nav .right ul{
       display: flex;
       justify-content:space-around; 
       gap: 15px;
+}
+
+.active{
+      border-bottom: 2px solid red;
 }
